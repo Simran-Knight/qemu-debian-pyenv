@@ -1,0 +1,1 @@
+qemu-system-x86_64 -m 2048M  -drive if=virtio,file=hd.img,format=qcow2 -drive file=debian.iso,format=raw -no-reboot 
